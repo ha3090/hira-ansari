@@ -1,0 +1,184 @@
+//  --------------------------------------------------
+//  Typography abstracts
+
+//  - rules for how type should appear on the page
+
+//  ==================================================
+    .a-squash {
+      height: 0;
+      overflow: hidden;
+      position: absolute;
+    }
+
+    .a-allCaps {
+      text-transform: uppercase;
+    }
+
+
+    // remove padding for non-baseline alignment
+    .-offBase {
+      padding: 0;
+    }
+
+    // alignment
+    .a-justify\(center\) {
+      text-align: center;
+    }
+
+    .a-strong {
+      font-weight: 900;
+    }
+
+
+    // header styles
+    .a-h\(28\) {
+      // @extend %titles;
+      font-size: rem(28px);
+      line-height: rem(32px);
+      margin: rem(-1px) 0 0 0;
+      padding: 0 0 rem(1px);
+      font-weight: 900;
+    }
+    .a-h\(22\) {
+      // @extend %titles;
+      font-size: rem(22px);
+      line-height: rem(32px);
+      font-weight: 900;
+    }
+    .a-h\(18\) {
+      // @extend %titles;
+      font-size: rem(18px);
+      line-height: rem(24px);
+      padding: rem(6px) 0 rem(2px);
+      font-weight: 900;
+    }
+
+    .h-\(24\) {
+      font-family: 'Raleway', sans-serif;
+      font-size: rem(24px);
+      line-height: rem(32px);
+      font-weight: 900;
+      color: #000;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+    }
+
+
+    // subheader styles
+    .a-s\(12\) {
+      font-family: 'Raleway', sans-serif;
+      font-size: rem(12px);
+      line-height: rem(16px);
+      letter-spacing: 0.1em;
+      padding: rem(4px) 0;
+      font-weight: 900;
+    }
+
+    .s-\(14\) {
+      color: #000;
+      font-size: 14px;
+      line-height: 24px;
+      text-transform: uppercase;
+      font-weight: 900;
+      text-align: center;
+      letter-spacing: 0.1em;
+      padding: 0 0 20px;
+    }
+
+
+
+    // paragraph styles
+
+    .p-\(12\){
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 400;
+      color: #000;
+      padding-bottom: 20px;
+    }
+
+    .p-\(16\){
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 500;
+      color: #000;
+    }
+
+    .b-\(14\){
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 700;
+      // padding: 4px 0;
+      color: #000;
+    }
+    .a-p\(12\) {
+      font-size: rem(12px);
+      line-height: rem(16px);
+      padding: rem(4px) 0;
+    }
+
+    .a-p\(14\) {
+      font-size: rem(14px);
+      line-height: rem(24px);
+      padding: rem(7px) 0 rem(1px);
+    }
+
+    .a-p\(16\) {
+      font-size: rem(16px);
+      line-height: rem(24px);
+      margin: rem(-1px) 0 0 0;
+      padding: 0 0 rem(1px);
+    }
+
+
+    // // links
+    // .a-link {
+    //   border-bottom: rem(1px) dashed $active-1;
+    //   transition: color $timing $ease, border $timing $ease;
+    //
+    //   &:hover {
+    //     border-bottom: rem(1px) solid $active-1b;
+    //   }
+    //
+    //   &.a-color\(active-2\) {
+    //     color: $active-2;
+    //     border-color: $active-2;
+    //
+    //     &:hover {
+    //       color: $active-1b;
+    //       border-color: $active-1b;
+    //     }
+    //   }
+    // }
+    //
+    //
+    //
+    // // color
+    // .a-color\(copy-1\) {
+    //   color: $copy-1;
+    // }
+    // .a-color\(copy-2\) {
+    //   color: $copy-2;
+    // }
+    // .a-color\(copy-3\) {
+    //   color: $copy-3;
+    // }
+    //
+    // .a-color\(active-1\) {
+    //   color: $active-1;
+    // }
+    // .a-color\(active-2\) {
+    //   color: $active-2;
+    // }
+    // .a-color\(active-3\) {
+    //   color: $active-3;
+    // }
+    // .a-color\(active-4\) {
+    //   color: $active-4;
+    // }
+    // .a-color\(alert\) {
+    //   color: $alert;
+    // }
+    // .a-color\(white\) {
+    //   color: white;
+    // }
